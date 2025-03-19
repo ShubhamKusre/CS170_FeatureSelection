@@ -1,0 +1,51 @@
+Select the dataset to use:
+        1 - Small Dataset
+        2 - Large Dataset
+1
+Using dataset: CS170_Small_Data__50.txt
+Type the number of the algorithm you want to run:
+        1 - Forward Selection
+        2 - Backward Elimination
+1
+Beginning Search.
+
+Starting Forward Selection...
+Default rate accuracy: 83.2%
+Using feature(s) {1} is 77.4%
+Using feature(s) {2} is 70.8%
+Using feature(s) {3} is 69.6%
+Using feature(s) {4} is 67.8%
+Using feature(s) {5} is 74.6%
+Using feature(s) {6} is 86.2%
+Best feature set: {6}, Accuracy: 86.2%
+
+Using feature(s) {1, 6} is 95.4%
+Using feature(s) {2, 6} is 82.8%
+Using feature(s) {3, 6} is 83.4%
+Using feature(s) {4, 6} is 80.4%
+Using feature(s) {5, 6} is 85.2%
+Best feature set: {1, 6}, Accuracy: 95.4%
+
+Using feature(s) {1, 2, 6} is 91.6%
+Using feature(s) {1, 3, 6} is 92.6%
+Using feature(s) {1, 4, 6} is 93.4%
+Using feature(s) {1, 5, 6} is 93.2%
+Best feature set: {1, 4, 6}, Accuracy: 93.4%
+
+Using feature(s) {1, 2, 4, 6} is 88.6%
+Using feature(s) {1, 3, 4, 6} is 88.6%
+Using feature(s) {1, 4, 5, 6} is 90.4%
+Best feature set: {1, 4, 5, 6}, Accuracy: 90.4%
+
+Using feature(s) {1, 2, 4, 5, 6} is 85.2%
+Using feature(s) {1, 3, 4, 5, 6} is 84.6%
+Best feature set: {1, 2, 4, 5, 6}, Accuracy: 85.2%
+
+Using feature(s) {1, 2, 3, 4, 5, 6} is 84.4%
+Best feature set: {1, 2, 3, 4, 5, 6}, Accuracy: 84.4%
+
+Using feature(s) set() is 83.2%
+
+Search Completed!
+Best feature subset found: {1, 6} with accuracy of 95.4%.
+Total execution time: 19.25 seconds.
